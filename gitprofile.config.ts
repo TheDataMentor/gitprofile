@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['TheDataMentor/gitprofile'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -52,14 +52,14 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Brandon T. Jackson',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'datajackson',
+    twitter: 'datajackson',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -69,71 +69,66 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://www.datajackson.com',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'brandon@datajackson.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://docs.google.com/document/d/1Gd9HSt4_nlKmXPhb9_rcNwEZq63PhZxBb3dmg9tyYWs/edit?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
     'MySQL',
     'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Python',
+    'R',
+    'Tableau',
+    'Snowflake',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'JP Morgan Chase',
+      position: 'VP, Data Products & Delivery',
+      from: 'March 2023',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://chase.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Streamlytics',
+      position: 'Director, Strategy',
+      from: 'April 2021',
+      to: 'March 2023',
+      companyLink: 'lin',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
+      name: 'Data Strategy: Leveraging Data as a Competitive Advantage',
       body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      year: 'April 2022',
+      link: 'https://certificates.emeritus.org/35ee6921-f491-4e05-bcbc-49e6c54af8bf#gs.gd2bk2',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'The University of Texas at Austin',
+      school: 'McCombs School of Business', 
+      degree: 'BA, Supply Chain Management',
+      from: '2006',
+      to: '2010',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Northwestern University',
+      degree: 'MS, Predictive Analytics',
+      from: '2013',
+      to: '2015',
     },
   ],
   publications: [
@@ -158,8 +153,8 @@ const CONFIG = {
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {

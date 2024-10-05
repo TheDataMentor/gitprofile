@@ -20,12 +20,12 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['TheDataMentor/1','TheDataMentor/DataCurriculum','TheDataMentor/codesnippets','TheDataMentor/RegressionAssumptions','TheDataMentor/TheDataMentor'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['TheDataMentor/gitprofile'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -98,20 +98,41 @@ const CONFIG = {
       position: 'VP, Data Products & Delivery',
       from: 'March 2023',
       to: 'Present',
-      companyLink: 'https://chase.com',
+      //companyLink: 'https://chase.com',
     },
     {
       company: 'Streamlytics',
       position: 'Director, Strategy',
       from: 'April 2021',
       to: 'March 2023',
-      companyLink: 'lin',
+      //companyLink: 'lin',
+    },
+     {
+      company: 'Revionics',
+      position: 'Manager, Data Science',
+      from: 'March 2015',
+      to: 'Dec 2022',
+      //companyLink: 'https://chase.com',
+    },
+      {
+      company: 'Coyote Logistics',
+      position: 'Data Science',
+      from: 'March 2013',
+      to: 'Dec 2015',
+      //companyLink: 'https://chase.com',
+    },
+      {
+      company: 'FedEx Ground',
+      position: 'Operations Manager',
+      from: 'Jan 2010',
+      to: 'Dec 2013',
+      //companyLink: 'https://chase.com',
     },
   ],
   certifications: [
     {
       name: 'Data Strategy: Leveraging Data as a Competitive Advantage',
-      body: 'Lorem ipsum dolor sit amet',
+      instituation: 'UC Berkely Executive Education',
       year: 'April 2022',
       link: 'https://certificates.emeritus.org/35ee6921-f491-4e05-bcbc-49e6c54af8bf#gs.gd2bk2',
     },
@@ -131,6 +152,7 @@ const CONFIG = {
       to: '2015',
     },
   ],
+ /*
   publications: [
     {
       title: 'Publication Title',
@@ -157,6 +179,7 @@ const CONFIG = {
     username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
+  */
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },

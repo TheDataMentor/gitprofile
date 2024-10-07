@@ -34,17 +34,9 @@ const CONFIG = {
       projects: [
       {
         title: 'Sweat Equity Homes',
-        description: `This is a passion project that shifts the focus of home buying more on sweat equity than move-in-ready homes. Sweat Equity Homes is a real estate web application designed to help users discover the potential value in upgrading properties by utilizing machine learning predictions to estimate possible increases in property value through renovations and improvements.\n\n
-      
-        
-        **Technologies Used:**\n
-        - Flask: Web framework for the backend.\n
-        - Flask-SQLAlchemy: Database operations.\n
-        - scikit-learn, numpy, pandas: Machine learning and data manipulation.\n
-        - APScheduler: Task scheduling (e.g., updating property data).\n
-        - Leaflet.js: Map rendering and geographic visualization.\n
-        - HTML/CSS: Frontend design and layout.`,
-        features: '- Display detailed property information, including price, square footage, and location.\n
+        description: 'This is a passion project that shifts the focus of home buying more on sweat equity than move-in-ready homes. Sweat Equity Homes is a real estate web application designed to help users discover the potential value in upgrading properties by utilizing machine learning predictions to estimate possible increases in property value through renovations and improvements.',
+        technologies: 'Flask,Flask-SQLAlchemy,scikit-learn, numpy, pandas,APScheduler ,Leaflet.js,HTML/CSS',
+        features: '- Display detailed property information, including price, square footage, and location .\n
         - Predict potential sweat equity based on property details using machine learning models.\n
         - Suggest renovation projects with estimated costs and returns on investment (ROI).\n
         - Visualize property location and surrounding amenities with interactive maps.\n

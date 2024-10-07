@@ -36,11 +36,7 @@ const CONFIG = {
         title: 'Sweat Equity Homes',
         description: 'This is a passion project that shifts the focus of home buying more on sweat equity than move-in-ready homes. Sweat Equity Homes is a real estate web application designed to help users discover the potential value in upgrading properties by utilizing machine learning predictions to estimate possible increases in property value through renovations and improvements.',
         technologies: 'Flask,Flask-SQLAlchemy,scikit-learn, numpy, pandas,APScheduler ,Leaflet.js,HTML/CSS',
-        features: '- Display detailed property information, including price, square footage, and location .\n
-        - Predict potential sweat equity based on property details using machine learning models.\n
-        - Suggest renovation projects with estimated costs and returns on investment (ROI).\n
-        - Visualize property location and surrounding amenities with interactive maps.\n
-        - View historical and future predictions of property values.\n',
+        features: '1) Display detailed property information, including price, square footage, and location 2) Predict potential sweat equity based on property details using machine learning models.3) Suggest renovation projects with estimated costs and returns on investment (ROI) 4) Visualize property location and surrounding amenities with interactive maps. 5) View historical and future predictions of property values.\n',
         imageUrl: '/homeequity.webp',
         link: 'https://example.com',
       },

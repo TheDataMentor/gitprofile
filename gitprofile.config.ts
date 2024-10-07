@@ -48,7 +48,7 @@ const CONFIG = {
         - APScheduler: Task scheduling (e.g., updating property data).\n
         - Leaflet.js: Map rendering and geographic visualization.\n
         - HTML/CSS: Frontend design and layout.`,
-        imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+        imageUrl: '/homeequity.webp',
         link: 'https://example.com',
       },
 
@@ -104,6 +104,10 @@ const CONFIG = {
     'R',
     'Tableau',
     'Snowflake',
+    'Flask',
+    'Flask-SQLAlchemy',
+    'APScheduler',
+    'HTML/CSS',
   ],
   experiences: [
     {
